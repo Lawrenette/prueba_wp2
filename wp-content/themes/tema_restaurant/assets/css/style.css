@@ -1,0 +1,141 @@
+body {
+  background: #fffffa;
+  margin: 0px;
+  padding: 0px;
+}
+hr {
+  color: #CC1924;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+h1, h2 {
+  padding-bottom: 40px;
+  font-weight: bold;
+  color: #CC1924 !important;
+}
+h3, h4 {
+  font-weight: bold;
+}
+img {
+  width: 500px;
+  border-radius: 5%;
+  border: 3px #CC1924 double;
+}
+/*=====NAVBAR=====*/
+header {
+  width: 100%;
+  overflow: hidden; 
+  background: black;
+  margin-bottom: 20px;
+  background-image: url(../img/sitio/pizza.jpg);
+  z-index: 9;
+}
+header .logo {
+  color: #fff;
+  font-size: 40px;
+  line-height: 200px;
+  float: left;
+  font-weight: bold;
+  text-shadow: 0 0 0.2em #CC1924, 0 0 0.2em #CC1924;
+}
+header nav {
+  float: right;
+  line-height: 200px;
+}
+header nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+header nav a:hover {
+  background: #CC1924;
+  border-radius: 50px;
+  color: #000;
+  text-decoration: none;
+}
+.header2 {
+  position: fixed !important;
+  height: 100px;
+  margin-top: 0px;
+}
+.header2 .logo {
+  line-height: 100px;
+  font-size: 30px;
+}
+.header2 nav {
+  line-height: 100px;
+}
+@media screen and (max-width: 950px) {
+  header .logo,
+  header nav {
+    width: 100%;
+    text-align:center; 
+    line-height: 100px;
+  }
+  .header2 {
+    height: auto;
+  }
+  .header2 .logo,
+  .header2 nav {
+    line-height: 50px;
+  }
+}
+/*=====MAIN=====*/
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+/*=====FOOTER=====*/
+.lawren p {
+  padding-top: 40px;
+  text-align: center;
+  text-shadow: 0 0 0.2em #CC1924;
+  color: #fff;
+}
+.lawren a {
+  text-decoration: none;
+  color: #CC1924;
+}
+#linea {
+  width: 180px;
+  border-color: #CC1924;
+}
+.footer_fondo {
+  background-size: 100% 100%;
+  background-color: black;
+}
+
+/*==== NOSOTROS ====*/
+#nosotros {
+  margin: 120px 0;
+}
+
+/*==== MENU ====*/
+#menu {
+  margin: 100px;
+  padding: 100px;
+}
+#menu h1, h2 {
+  text-align: center;
+}
+#menu h1 {
+  font-size: 50px;
+}
+#menu hr {
+  color: #CC1924;
+  width: 500px;
+  border: 1px solid;
+  margin-bottom: 30px;
+}
+.precio {
+  float: right;
+}
