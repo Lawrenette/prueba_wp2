@@ -1,14 +1,14 @@
-Restaurant: http://186.64.118.50/~mpnacevedo/
+- Restaurant: http://186.64.118.50/~mpnacevedo/
 
-cpanel:
+- cpanel:
 			lawrenette
 			2012828163lawren0905
 
-nombre base de datos:
+- nombre base de datos:
 			mpnaceve_dl_restaurant
-user base de datos:
+- user base de datos:
 			mpnaceve_dl_user
-clave base de datos:
+- clave base de datos:
 			D6^4oW4^39[=
 
 
